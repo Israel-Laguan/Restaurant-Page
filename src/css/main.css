@@ -1,0 +1,22 @@
+:root {
+  --main-darkgray: #333;
+  --header-yellow: #ead975;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&display=swap');
+
+.title {
+  font-family: 'Lora', serif;
+  font-style: italic;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-darkgray);
+}
+
+.big-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
