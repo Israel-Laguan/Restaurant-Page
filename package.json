@@ -1,0 +1,44 @@
+{
+  "name": "sushi-fusion",
+  "version": "0.1.0",
+  "description": "Fast, dynamic and responsive website for a restaurant",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/ --cache -f table",
+    "lint-fix": "eslint src/ --fix"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Israel-Laguan/SUSHI-FUSION.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "app",
+    "eslint",
+    "ES6",
+    "Test",
+    "Jest"
+  ],
+  "author": "Israel Laguan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Israel-Laguan/SUSHI-FUSION/issues"
+  },
+  "homepage": "https://github.com/Israel-Laguan/SUSHI-FUSION#readme"
+}
