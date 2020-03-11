@@ -38,6 +38,66 @@ Moody Food Restaurant is a fictional restaurant based in USA. They have requeste
 
 In fact this is for Microverse based in this [requirements](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page).
 
+- Data Structures
+- Object Oriented Programming
+- Factory Functions
+- Single Responsibility
+- Tightly Coupled Objects
+- Module Pattern
+- ES6 syntax
+- Export/import ES6+ notation
+- Linters
+
+# Features
+
+- Basic VanillaJS app with a single script or few commands
+- JS modules and ES6+ available for most browsers
+- Sets `stickler` on the repo
+- Sets `eslint` rules
+- Tests made with [`ESLint`](https://eslint.org/)
+- Unit Testing with [`Jest`](https://jestjs.io/)
+- Add `jest` and `eslint` to be callable with `npm`
+
+# Built With
+
+- Webpack
+- `ESLint`
+- `npm`
+- `vscode` with _ESLint_ extension
+- Linux/GNU
+- Love and Passion for code
+
+# Build
+
+## Prerequisites
+
+- `npm` 6.13 +
+- `node` 11.15 +
+- A Text Editor like VSCode
+- A browser like Firefox or Chrome
+
+### Run locally
+
+- `npm i` - install dependencies
+- `npm start` - start development server
+
+### Where are generated files?
+
+In `development` mode `webpack` does not write generated files to disk, in order to change it
+switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js)
+
+### Run production build
+
+- `npm run preview`
+
+## Production
+
+- `npm run build` to prepare `html`, `css`, `js` files in `dist/` directory
+
+## Run tests
+
+Optionally you can run the linter and tests: `npm run linter && npm test`
+
 # 👨 Author
 
 - [Israel Laguan](https://github.com/Israel-Laguan)
