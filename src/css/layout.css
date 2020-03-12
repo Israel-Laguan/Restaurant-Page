@@ -9,6 +9,7 @@ main {
   height: 50px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .global-header nav {
@@ -19,6 +20,7 @@ main {
 
 .global-header ul {
   display: flex;
+  margin-left: 20px;
 }
 
 .global-header li {
@@ -38,4 +40,10 @@ main {
 
 .page-body {
   width: 100vw;
+}
+
+@media only screen and (min-width: 1024px) {
+  .global-header ul{
+    margin-left: 0;
+  }
 }

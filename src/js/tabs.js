@@ -1,33 +1,38 @@
-// const tabs = (() => {
-//   const tabs = ['Home', 'Menu', 'Contact'];
-//   let current = 'Home';
-//   const init = () => {
-//     try {
-//       console.log('lsjnd');
-//       return {
-//         ok: 'Tabs generated!',
-//       };
-//     } catch (error) {
-//       return { error: error.message };
-//     }
-//   }
+import layout from './Layout';
 
-//   const change = (tab = '') => {
-//     try {
-//       if (typeof tab !== 'string') throw new TypeError('Tab must be string');
-//       if (!tabs.includes(tab)) throw new RangeError('Tab incorrect. Must be Home | Menu | Contact');
+const tabs = (() => {
+  const tabs = ['Home', 'Menu', 'Contact'];
+  let current = 'Home';
 
-//       return {
-//         ok: 'Tab Changed!',
-//       };
-//     } catch (error) {
-//       return { error: error.message };
-//     }
-//   }
-//   return {
-//     init,
-//     change
-//   }
-// })();
+  const init = () => {
+    try {
+      layout();
+      return {
+        ok: 'Tabs generated!',
+      };
+    } catch (error) {
+      return { error: error.message };
+    }
+  };
 
-// export default tabs;
+  const change = (tab = '') => {
+    try {
+      if (typeof tab !== 'string') throw new TypeError('Tab must be string');
+      if (!tabs.includes(tab)) throw new RangeError('Tab incorrect. Must be Home | Menu | Contact');
+      if (tab === current) throw new Error('Its the same tab');
+      layout(tab);
+      current = tab;
+      return {
+        ok: 'Tab Changed!',
+      };
+    } catch (error) {
+      return { error: error.message };
+    }
+  };
+  return {
+    init,
+    change,
+  };
+})();
+
+export default tabs;
