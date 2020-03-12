@@ -1,0 +1,47 @@
+.hero {
+  display: block;
+  height: 50vh;
+  width: 100%;
+}
+
+.hero .hero-text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 50%;
+  margin: 50px 10px 50px 0;
+}
+
+.hero-text .title {
+  font-size: xx-large;
+}
+
+.hero .hero-image {
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100%;
+  min-width: 500px;
+  max-width: 640px;
+  flex: 100%;
+}
+
+@media only screen and (min-width: 1024px) {
+  .hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hero-text {
+    margin: 5px 0;
+  }
+
+  .hero-image.menu {
+    background-image: url('https://source.unsplash.com/MtqG1lWcUw0/640x426');
+  }
+
+  .hero-image.home {
+    background-image: url('https://source.unsplash.com/oCsaxvGCehM/640x853');
+  }
+}

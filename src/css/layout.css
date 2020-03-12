@@ -28,6 +28,8 @@ main {
 
 .global-header li:hover {
   cursor: pointer;
+  font-weight: bolder;
+  font-style: normal;
 }
 
 .global-header li.current {
@@ -36,35 +38,4 @@ main {
 
 .page-body {
   width: 100vw;
-}
-
-.yellow-bar {
-  background-color: var(--header-yellow);
-  color: black;
-}
-
-.yellow-blue-gradient {
-  background: var(--header-yellow);
-  background: -moz-linear-gradient(
-    top,
-    #ead975 0%,
-    #ead975 6%,
-    #000333 6%,
-    #000333 100%
-  );
-  background: -webkit-linear-gradient(
-    top,
-    #ead975 0%,
-    #ead975 6%,
-    #000333 6%,
-    #000333 100%
-  );
-  background: linear-gradient(
-    to bottom,
-    #ead975 0%,
-    #ead975 6%,
-    #000333 6%,
-    #000333 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ead975', endColorstr='#000333',GradientType=0 );
 }
