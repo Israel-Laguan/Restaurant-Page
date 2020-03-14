@@ -6,7 +6,16 @@ const menuDescription = `We want your time with us to count. So along with an in
     atmosphere where everyone can be comfortable, we offer delectable handcrafted appetizers,
     a glass of wine and the caring and service that you deserve.`;
 
-export const tabs = (currentTab = 'Home') => `
+const dishImages = [
+  ['https://source.unsplash.com/awj7sRviVXo/640x960', 'Meal with salmon and zucchini'],
+  ['https://source.unsplash.com/V9LP6-y8e5w/640x415', 'Avocado toast with beet hummus and salad greens'],
+  ['https://source.unsplash.com/w6ftFbPCs9I/640x960', 'Autumn Soup'],
+  ['https://source.unsplash.com/HF16IxB_tO4/640x505', 'Fall salad'],
+  ['https://source.unsplash.com/fdlZBWIP0aM/640x907', 'Avocado and Egg Toast'],
+  ['https://source.unsplash.com/Yr4n8O_3UPc/640x423', 'Pork Chop Dinner'],
+];
+
+const tabs = (currentTab = 'Home') => `
     <div class="global-header ${currentTab === 'Home' ? 'yellow-bg' : 'dark-bg'}">
         <nav class="big-container">
             <ul>
@@ -18,14 +27,29 @@ export const tabs = (currentTab = 'Home') => `
     </div>
 `;
 
-export const hero = (title = 'Plaza Athénée', description = HomeDescription, imageClass = 'home') => `
+const hero = (title = 'Plaza Athénée', description = HomeDescription, imageClass = 'home') => `
     <div class="hero">
-        <div class="hero-text ${imageClass === 'home' ? 'dark-bg' : 'yellow-bg'}">
+        <div class="hero-text ${imageClass === 'home' ? 'dark-bg' : ''}">
             <h2 class="title" style="${imageClass === 'home' ? 'color: #ead975;' : ''}">${title}</h2>
             <p>${description}</p>
         </div>
         <div class="hero-image ${imageClass}"></div>
     </div>
+`;
+
+const dishes = (title, imageURL, id) => `
+  <article id="${id}" class="location-listing">
+    <p class="location-title">${title}</p>
+    <div class="location-image">
+      <img src="${imageURL}" alt="${title}">
+    </div>
+  </article>
+`;
+
+const about = () => `
+    <div>
+    Contact Information here
+    <div> 
 `;
 
 export const home = () => `
@@ -38,10 +62,22 @@ export const home = () => `
 `;
 
 export const menu = () => `
-    ${tabs('Menu')}
+  ${tabs('Menu')}
+  <div class="page-body split dark-yellow-gradient" id="tab-container">
+    <div class="big-container tab-content">
+      ${hero('Menu', menuDescription, 'menu')}
+      <div class="grid-container">
+        ${dishImages.map((image, id) => dishes(image[1], image[0], id)).join('')}
+      </div>      
+    </div>
+  </div>
+`;
+
+export const contact = () => `
+    ${tabs('Contact')}
     <div class="page-body split dark-yellow-gradient" id="tab-container">
         <div class="big-container tab-content">
-            ${hero('Menu', menuDescription, 'menu')}
+            ${about()}
         </div>
     </div>
 `;
