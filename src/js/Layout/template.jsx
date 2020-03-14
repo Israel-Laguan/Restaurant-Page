@@ -29,8 +29,8 @@ const tabs = (currentTab = 'Home') => `
 
 const hero = (title = 'Plaza Athénée', description = HomeDescription, imageClass = 'home') => `
     <div class="hero">
-        <div class="hero-text ${imageClass === 'home' ? 'dark-bg' : ''}">
-            <h2 class="title" style="${imageClass === 'home' ? 'color: #ead975;' : ''}">${title}</h2>
+        <div class="hero-text ${imageClass === 'menu' ? '' : 'dark-bg'}">
+            <h2 class="title" style="${imageClass === 'menu' ? '' : 'color: #ead975;'}">${title}</h2>
             <p>${description}</p>
         </div>
         <div class="hero-image ${imageClass}"></div>
@@ -44,12 +44,6 @@ const dishes = (title, imageURL, id) => `
       <img src="${imageURL}" alt="${title}">
     </div>
   </article>
-`;
-
-const about = () => `
-    <div>
-    Contact Information here
-    <div> 
 `;
 
 export const home = () => `
@@ -75,9 +69,9 @@ export const menu = () => `
 
 export const contact = () => `
     ${tabs('Contact')}
-    <div class="page-body split dark-yellow-gradient" id="tab-container">
+    <div class="page-body split yellow-dark-gradient" id="tab-container">
         <div class="big-container tab-content">
-            ${about()}
+            ${hero('We are here to serve you', ' We are a talented team of chefs for you', 'contact')}
         </div>
     </div>
 `;

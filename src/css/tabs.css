@@ -31,6 +31,12 @@
   height: 426px;
 }
 
+.hero-image.contact {
+  background: url('https://source.unsplash.com/aUeMxXAUGec/640x432')
+    rgba(220, 220, 220, 0.3);
+  height: 432px;
+}
+
 @media only screen and (min-width: 1024px) {
   .hero {
     display: flex;
