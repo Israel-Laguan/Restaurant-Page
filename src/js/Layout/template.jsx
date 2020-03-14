@@ -6,6 +6,10 @@ const menuDescription = `We want your time with us to count. So along with an in
     atmosphere where everyone can be comfortable, we offer delectable handcrafted appetizers,
     a glass of wine and the caring and service that you deserve.`;
 
+const contactDescription = `We wait you will excellent quality. Call to 
+    <b>+1 313 5431 331</b> or email us for a reservation request 
+    to <a href="mailto:service@plazaathenee.chef"><b>service@plazaathenee.chef</b></a>`;
+
 const dishImages = [
   ['https://source.unsplash.com/awj7sRviVXo/640x960', 'Meal with salmon and zucchini'],
   ['https://source.unsplash.com/V9LP6-y8e5w/640x415', 'Avocado toast with beet hummus and salad greens'],
@@ -16,7 +20,7 @@ const dishImages = [
 ];
 
 const tabs = (currentTab = 'Home') => `
-    <div class="global-header ${currentTab === 'Home' ? 'yellow-bg' : 'dark-bg'}">
+    <div class="global-header ${currentTab === 'Menu' ? 'dark-bg' : 'yellow-bg'}">
         <nav class="big-container">
             <ul>
                 <li ${currentTab === 'Home' ? 'class="current"' : ''} id="home">Home</li>
@@ -71,7 +75,7 @@ export const contact = () => `
     ${tabs('Contact')}
     <div class="page-body split yellow-dark-gradient" id="tab-container">
         <div class="big-container tab-content">
-            ${hero('We are here to serve you', ' We are a talented team of chefs for you', 'contact')}
+            ${hero('We are here to serve you', contactDescription, 'contact')}
         </div>
     </div>
 `;
