@@ -47,7 +47,7 @@ h2 {
   left: 0;
   opacity: 0;
   transition: opacity 0.5s;
-  background: rgba(90, 0, 10, 0.4);
+  background: rgba(87, 87, 87, 0.4);
   color: white;
 
   /* position the text in t’ middle*/

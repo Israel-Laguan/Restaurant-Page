@@ -3,7 +3,7 @@ import './css/main.css';
 import './css/layout.css';
 import './css/tabs.css';
 import './css/menu.css';
-import tabs from './js/tabs';
+import tabs from './js';
 
 tabs.init();
 

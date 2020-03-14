@@ -1,4 +1,4 @@
-import { home, menu, contact } from './template.jsx';
+import { home, menu, contact } from './template';
 
 const layout = (currentTab = 'Home') => {
   if (typeof currentTab !== 'string') throw new TypeError('Tab Provided is invalid!');

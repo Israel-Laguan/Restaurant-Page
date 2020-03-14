@@ -1,4 +1,4 @@
-import layout from './Layout';
+import layout from './layout';
 
 const tabs = (() => {
   const tabs = ['Home', 'Menu', 'Contact'];
