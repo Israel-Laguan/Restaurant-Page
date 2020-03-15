@@ -28,11 +28,11 @@
   </p>
 </p>
 
-![home](docs/home.png)
+[![Home](docs/home.png)](http://plaza-athenee.surge.sh/)
 
 # The Project
 
-Plaza Athénée is a fictional restaurant based in USA. They have requested your help to build a website that will help them reach to younger public. They want it to be fast, dynamic and responsive. They provide the [design](https://www.freepik.com/free-psd/moody-food-restaurant-instagram-stories_6593460.htm).
+Plaza Athénée is a fictional restaurant based in USA. They have requested your help to build a website that will help them reach to younger public. They want it to be fast, dynamic and responsive.
 
 ## Well...
 
@@ -78,7 +78,7 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 
 # Live Demo
 
-[![Home](docs/home.png)](https://math-magicians-calculator.herokuapp.com/)
+[![Home](docs/home.png)](http://plaza-athenee.surge.sh/)
 
 ![Menu](docs/menu.png)
 ![Contact](docs/contact.png)
