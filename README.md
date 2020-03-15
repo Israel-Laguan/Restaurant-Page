@@ -28,11 +28,11 @@
   </p>
 </p>
 
-![logo](docs/logo.png)
+![home](docs/home.png)
 
 # The Project
 
-Moody Food Restaurant is a fictional restaurant based in USA. They have requested your help to build a website that will help them reach to younger public. They want it to be fast, dynamic and responsive. They provide the [design](https://www.freepik.com/free-psd/moody-food-restaurant-instagram-stories_6593460.htm).
+Plaza Athénée is a fictional restaurant based in USA. They have requested your help to build a website that will help them reach to younger public. They want it to be fast, dynamic and responsive. They provide the [design](https://www.freepik.com/free-psd/moody-food-restaurant-instagram-stories_6593460.htm).
 
 ## Well...
 
@@ -58,6 +58,13 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 - Unit Testing with [`Jest`](https://jestjs.io/)
 - Add `jest` and `eslint` to be callable with `npm`
 
+
+# Tests
+
+## `ESlint`
+
+![ESlint](docs/linter.png)
+
 # Built With
 
 - Webpack
@@ -69,6 +76,13 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 
 # Build
 
+# Live Demo
+
+[![Home](docs/home.png)](https://math-magicians-calculator.herokuapp.com/)
+
+![Menu](docs/menu.png)
+![Contact](docs/contact.png)
+
 ## Prerequisites
 
 - `npm` 6.13 +
@@ -76,19 +90,25 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 - A Text Editor like VSCode
 - A browser like Firefox or Chrome
 
-### Run locally
+## Quick Start
 
-- `npm i` - install dependencies
-- `npm start` - start development server
+```
+git clone https://github.com/Israel-Laguan/SUSHI-FUSION.git
+cd sushi-fusion
+npm i && npm start
+```
+
+Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
 
 ### Where are generated files?
 
 In `development` mode `webpack` does not write generated files to disk, in order to change it
-switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js)
+switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js). The generated files are
+on `dist/` folder.
 
-### Run production build
+### Run development build
 
-- `npm run preview`
+- `npm start`
 
 ## Production
 
@@ -105,6 +125,7 @@ Optionally you can run the linter and tests: `npm run linter && npm test`
 # 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Israel-Laguan/SUSHI-FUSION/issues).
 
 # 🤗 Show your support
 

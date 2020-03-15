@@ -10,7 +10,8 @@
     "build": "NODE_ENV=production webpack",
     "test": "jest --coverage -w =100%",
     "lint": "eslint src/ --cache -f table",
-    "lint-fix": "eslint src/ --fix"
+    "lint-fix": "eslint src/ --fix",
+    "deploy": "surge ./dist plaza-athenee.surge.sh"
   },
   "dependencies": {
     "clean-webpack-plugin": "^3.0.0",
