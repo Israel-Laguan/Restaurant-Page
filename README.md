@@ -19,7 +19,7 @@
   </h1>
 
   <p align="center">
-    Dynamically rendering a simple restaurant homepage with JS
+    Dynamically rendering a restaurant homepage with JS and webpack
     <br />
 	  🖊️
     <a href="https://www.theodinproject.com/courses/javascript/lessons/restaurant-page">Assignment</a>
@@ -40,6 +40,14 @@ Plaza Athénée is a fictional restaurant based in USA. They have requested your
 
 In fact this is for Microverse based in this [requirements](https://www.theodinproject.com/courses/javascript/lessons/restaurant-page).
 
+> Restaurant Page project is part of a series of projects to be completed by students of Microverse.
+
+The Restaurant Page is a JavaScript project, built using DOM manipulation and webpack. The restaurant shows a description of the services, a menu with some dishes (with a *delicate* animation), and a welcoming contact page. Most of the web is created using JavaScript String Templates, changing the view dynamically with event listeners.
+
+I created the design, configured the project and coded the webpage, so I was the designer, UI/UI engineer, Web Programmer, etc. 
+
+# Features
+
 - Data Structures
 - Object Oriented Programming
 - Factory Functions
@@ -49,9 +57,6 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 - ES6 syntax
 - Export/import ES6+ notation
 - Linters
-
-# Features
-
 - Basic VanillaJS app with a single script or few commands
 - JS modules and ES6+ available for most browsers
 - Sets `stickler` on the repo
@@ -63,7 +68,7 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 
 # Tests
 
-## `ESlint`
+## run `ESlint` with `npm run lint` to verify linter rules are applied correctly. If you want to auto correct you can run `npm run lint-fix`:
 
 ![ESlint](docs/linter.png)
 
@@ -76,17 +81,15 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 - Linux/GNU
 - Love and Passion for code
 
-# Build
-
 # Live Demo [HERE](http://plaza-athenee.surge.sh/)
 
 [![Home](docs/home.png)](http://plaza-athenee.surge.sh/)
-
 ![Menu](docs/menu.png)
 ![Contact](docs/contact.png)
 
 ## Prerequisites
 
+- `git`
 - `npm` 6.13 +
 - `node` 11.15 +
 - A Text Editor like VSCode
@@ -102,11 +105,10 @@ npm i && npm start
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
 
-### Where are generated files?
+### Where are the generated files?
 
 In `development` mode `webpack` does not write generated files to disk, in order to change it
-switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js). The generated files are
-on `dist/` folder.
+switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js). When you use `production ` mode, the generated files are on `dist/` folder.
 
 ### Run development build
 
@@ -119,6 +121,16 @@ on `dist/` folder.
 ## Run tests
 
 Optionally you can run the linter and tests: `npm run linter && npm test`
+
+## Future/planned features
+
+- [ ] Reservation with a form
+- [ ] Contact Form with a custom message
+- [ ] Improve Home View
+- [ ] Add Dishes and their description
+- [ ] When you click a dish, you have a button to reservate that dish in the form
+- [ ] Integrate Reservation with a Calendar/Events feature
+- [ ] Add tests
 
 # Author
 
