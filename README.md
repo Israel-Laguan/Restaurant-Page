@@ -68,7 +68,7 @@ I created the design, configured the project and coded the webpage, so I was the
 
 # Tests
 
-## run `ESlint` with `npm run lint` to verify linter rules are applied correctly. If you want to auto correct you can run `npm run lint-fix`:
+## `Eslint`
 
 ![ESlint](docs/linter.png)
 
@@ -112,15 +112,15 @@ switch `devServer.writeToDisk` to `true` in [webpack.dev.js](./webpack.dev.js). 
 
 ### Run development build
 
-- `npm start`
+To run the development build (the one that don't generate files) just run in the terminal `npm start`
 
 ## Production
 
-- `npm run build` to prepare `html`, `css`, `js` files in `dist/` directory
+- `npm run build` to prepare `html`, `css`, `js` files in `dist/` directory. The gerated files are ready to put in production, also you can open the `index.html` in your local browser so you can see the result.
 
 ## Run tests
 
-Optionally you can run the linter and tests: `npm run linter && npm test`
+Run `ESlint` with `npm run lint` to verify linter rules are applied correctly. If you want to auto correct you can run `npm run lint-fix`. Optionally you can run the linter and tests: `npm run linter && npm test`
 
 ## Future/planned features
 
