@@ -83,7 +83,7 @@ I created the design, configured the project and coded the webpage, so I was the
 
 # Live Demo [HERE](http://plaza-athenee.surge.sh/)
 
-[![Home](docs/home.png)](http://plaza-athenee.surge.sh/)
+[![Home](docs/home.gif)](http://plaza-athenee.surge.sh/)
 ![Menu](docs/menu.png)
 ![Contact](docs/contact.png)
 
