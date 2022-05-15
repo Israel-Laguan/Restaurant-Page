@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -11,7 +12,7 @@
 <br />
 <p align="center">
   <a href="https://www.microverse.org/">
-    <img src="docs/microverse.png" alt="Logo" width="80" height="80">
+    <img src="https://user-images.githubusercontent.com/67714964/168483541-21414a1f-101e-47f0-bcfe-9cb734f97810.jpg" alt="Logo" width="280" height="250">
   </a>
 
   <h1 align="center">
@@ -42,9 +43,9 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 
 > Restaurant Page project is part of a series of projects to be completed by students of Microverse.
 
-The Restaurant Page is a JavaScript project, built using DOM manipulation and webpack. The restaurant shows a description of the services, a menu with some dishes (with a *delicate* animation), and a welcoming contact page. Most of the web is created using JavaScript String Templates, changing the view dynamically with event listeners.
+The Restaurant Page is a JavaScript project, built using DOM manipulation and webpack. The restaurant shows a description of the services, a menu with some dishes (with a _delicate_ animation), and a welcoming contact page. Most of the web is created using JavaScript String Templates, changing the view dynamically with event listeners.
 
-I created the design, configured the project and coded the webpage, so I was the designer, UI/UI engineer, Web Programmer, etc. 
+I created the design, configured the project and coded the webpage, so I was the designer, UI/UI engineer, Web Programmer, etc.
 
 # Features
 
@@ -64,7 +65,6 @@ I created the design, configured the project and coded the webpage, so I was the
 - Tests made with [`ESLint`](https://eslint.org/)
 - Unit Testing with [`Jest`](https://jestjs.io/)
 - Add `jest` and `eslint` to be callable with `npm`
-
 
 # Tests
 
@@ -176,7 +176,7 @@ Run `ESlint` with `npm run lint` to verify linter rules are applied correctly. I
         </div>
     </td>
   </tr>
-</table> 
+</table>
 
 # Contributing
 
@@ -195,7 +195,7 @@ Give a ⭐️ if you like this project!
 - [The Odin Project](https://www.theodinproject.com/)
 - [Readme header author](https://github.com/collinsugwu/Microverse201-Enumerable-Methods)
 
-I created this websites inspired form an original 
+I created this websites inspired form an original
 <a href="https://www.freepik.com/free-photos-vectors/brochure">art created by freepik - www.freepik.com</a>
 
 # License
@@ -206,6 +206,7 @@ I created this websites inspired form an original
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/SUSHI-FUSION?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/SUSHI-FUSION/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/SUSHI-FUSION?style=for-the-badge
