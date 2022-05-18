@@ -103,7 +103,7 @@ cd sushi-fusion
 npm i && npm start
 ```
 
-Then open [http://localhost:3000/](http://localhost:3000/) to see the app.
+Then open [http://plaza-athenee.surge.sh/](http://plaza-athenee.surge.sh/) to see the app.
 
 ### Where are the generated files?
 
