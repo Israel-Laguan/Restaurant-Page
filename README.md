@@ -11,8 +11,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://www.microverse.org/">
-    <img src="https://user-images.githubusercontent.com/67714964/168483541-21414a1f-101e-47f0-bcfe-9cb734f97810.jpg" alt="Logo" width="280" height="250">
+  <a href="https://github.com/Israel-Laguan/Restaurant-Page">
+    <img src="https://user-images.githubusercontent.com/67714964/169435459-997a52de-93e7-4ed3-93a7-12f2065389e6.png" alt="Logo" width="280" height="250">
   </a>
 
   <h1 align="center">
