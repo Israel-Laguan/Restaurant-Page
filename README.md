@@ -134,16 +134,16 @@ Run `ESlint` with `npm run lint` to verify linter rules are applied correctly. I
 
 # Author
 
-| [Israel Laguan][author-github] | ![email-icon][] Email me to [contact@israellaguan.com][author-email] / ![linkedin-icon][] Connect to [my LinkedIn][author-linkedin] |
-| :----------------------------: | :---------------------------------------------------------------------------------------------------------------------------------: |
-|        ![author-pic][]         |                                                              ![banner]                                                              |
+| [Israel Laguan][author-github] | ![email-icon][] Email me to [israellaguan@gmail.com][author-email] / ![linkedin-icon][] Connect to [my LinkedIn][author-linkedin] |
+| :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
+|        ![author-pic][]         |                                                             ![banner]                                                             |
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [author-pic]: https://avatars2.githubusercontent.com/u/36519478?s=460&v=4
 [author-github]: https://israel-laguan.github.io
 [author-linkedin]: https://www.linkedin.com/in/israellaguan
-[author-email]: mailto:contact@israellaguan.com
+[author-email]: mailto:israellaguan@gmail.com
 [banner]: https://github.com/Israel-Laguan/Israel-Laguan/raw/master/docs/banner.jpg
 [linkedin-icon]: https://img.icons8.com/color/20/000000/linkedin.png
 [email-icon]: https://img.icons8.com/color/20/000000/message-squared.png
