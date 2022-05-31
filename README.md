@@ -1,4 +1,5 @@
 <!-- PROJECT SHIELDS -->
+
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues-open][issues-open-shield]][issues-url]
@@ -10,8 +11,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://www.microverse.org/">
-    <img src="docs/microverse.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/Israel-Laguan/Restaurant-Page">
+    <img src="https://user-images.githubusercontent.com/67714964/169435459-997a52de-93e7-4ed3-93a7-12f2065389e6.png" alt="Logo" width="280" height="250">
   </a>
 
   <h1 align="center">
@@ -42,9 +43,9 @@ In fact this is for Microverse based in this [requirements](https://www.theodinp
 
 > Restaurant Page project is part of a series of projects to be completed by students of Microverse.
 
-The Restaurant Page is a JavaScript project, built using DOM manipulation and webpack. The restaurant shows a description of the services, a menu with some dishes (with a *delicate* animation), and a welcoming contact page. Most of the web is created using JavaScript String Templates, changing the view dynamically with event listeners.
+The Restaurant Page is a JavaScript project, built using DOM manipulation and webpack. The restaurant shows a description of the services, a menu with some dishes (with a _delicate_ animation), and a welcoming contact page. Most of the web is created using JavaScript String Templates, changing the view dynamically with event listeners.
 
-I created the design, configured the project and coded the webpage, so I was the designer, UI/UI engineer, Web Programmer, etc. 
+I created the design, configured the project and coded the webpage, so I was the designer, UI/UI engineer, Web Programmer, etc.
 
 # Features
 
@@ -64,7 +65,6 @@ I created the design, configured the project and coded the webpage, so I was the
 - Tests made with [`ESLint`](https://eslint.org/)
 - Unit Testing with [`Jest`](https://jestjs.io/)
 - Add `jest` and `eslint` to be callable with `npm`
-
 
 # Tests
 
@@ -134,49 +134,19 @@ Run `ESlint` with `npm run lint` to verify linter rules are applied correctly. I
 
 # Author
 
-<table style="width:100%">
-  <tr>
-    <td>
-        <div align="center">
-            <a href="./docs/img/photo.png" target="_blank" rel="author">
-                <img src="https://avatars2.githubusercontent.com/u/36519478?s=460&v=4" style="border-radius: 10%; min-width: 100px;" alt="Israel Laguan's Photo" width="200px">
-            </a>
-            <h2>
-                <a href="https://israel-laguan.github.io/" target="_blank" rel="author">
-                    Israel Laguan
-                </a>
-            </h2>
-        </div>
-    </td>
-    <td>
-        <div align="center">
-            <a href="mailto:israellaguan@gmail.com" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/message-squared.png" style="border-radius: 10%" alt="My GitHub" height="45px">
-                <h3>
-                    Email me to 
-                    <a href="mailto:israellaguan@gmail.com">
-                        israellaguan@gmail.com
-                    </a>
-                </h3>
-            </a>
-            <a href="https://www.linkedin.com/in/israellaguan/" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt="My Linkedin" height="45px">
-                <h3>
-                    Connect to my Linkedin
-                </h3>
-            </a>
-            <a href="https://github.com/Israel-Laguan" target="_blank" rel="author">
-                <img src="https://img.icons8.com/color/48/000000/github--v1.png" 
-			style="border-radius: 10%" alt="My GitHub" height="45px"
-		>
-                <h3>
-                    Check my GitHub Profile
-                </h3>
-            </a>
-        </div>
-    </td>
-  </tr>
-</table> 
+| [Israel Laguan][author-github] | ![email-icon][] Email me to [israellaguan@gmail.com][author-email] / ![linkedin-icon][] Connect to [my LinkedIn][author-linkedin] |
+| :----------------------------: | :-------------------------------------------------------------------------------------------------------------------------------: |
+|        ![author-pic][]         |                                                             ![banner]                                                             |
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[author-pic]: https://avatars2.githubusercontent.com/u/36519478?s=460&v=4
+[author-github]: https://israel-laguan.github.io
+[author-linkedin]: https://www.linkedin.com/in/israellaguan
+[author-email]: mailto:israellaguan@gmail.com
+[banner]: https://github.com/Israel-Laguan/Israel-Laguan/raw/master/docs/banner.jpg
+[linkedin-icon]: https://img.icons8.com/color/20/000000/linkedin.png
+[email-icon]: https://img.icons8.com/color/20/000000/message-squared.png
 
 # Contributing
 
@@ -195,7 +165,7 @@ Give a ⭐️ if you like this project!
 - [The Odin Project](https://www.theodinproject.com/)
 - [Readme header author](https://github.com/collinsugwu/Microverse201-Enumerable-Methods)
 
-I created this websites inspired form an original 
+I created this websites inspired form an original
 <a href="https://www.freepik.com/free-photos-vectors/brochure">art created by freepik - www.freepik.com</a>
 
 # License
@@ -206,6 +176,7 @@ I created this websites inspired form an original
 Feel free to fork this project and improve it
 
 <!-- MARKDOWN LINKS & IMAGES -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/Israel-Laguan/SUSHI-FUSION?style=for-the-badge
 [contributors-url]: https://github.com/Israel-Laguan/SUSHI-FUSION/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Israel-Laguan/SUSHI-FUSION?style=for-the-badge
